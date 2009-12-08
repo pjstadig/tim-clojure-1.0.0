@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml-fragment>
+  <instrumented-classes>
+    <include>
+      <class-expression>clojure..*</class-expression>
+    </include>
+  </instrumented-classes>
+</xml-fragment>

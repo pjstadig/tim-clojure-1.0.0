@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.terracotta.forge</groupId>
+    <artifactId>tim-parent</artifactId>
+    <version>1.4.1</version>
+  </parent>
+
+  <groupId>com.stadigtech.terracotta.modules</groupId>
+  <artifactId>tim-clojure-1.0.0</artifactId>
+  <version>1.0.0</version>
+  <packaging>jar</packaging>
+  <name>tim-clojure-1.0.0</name>
+
+  <!--scm>
+    <connection>scm:svn:http://svn.terracotta.org/svn/forge/projects/tim-clojure-1.0.0/trunk</connection>
+    <developerConnection>scm:svn:https://svn.terracotta.org/repo/forge/projects/tim-clojure-1.0.0/trunk</developerConnection>
+    <url>http://svn.terracotta.org/svn/forge/projects/tim-clojure-1.0.0/trunk</url>
+  </scm-->
+
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>terracotta-repository</id>
+      <url>http://www.terracotta.org/download/reflector/maven2</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>terracotta-repository</id>
+      <url>http://www.terracotta.org/download/reflector/maven2</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>
