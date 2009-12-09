@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <xml-fragment>
+  <roots>
+    <root>
+      <field-name>clojure.lang.Keyword.table</field-name>
+    </root>
+    <root>
+      <field-name>clojure.lang.Namespace.namespaces</field-name>
+    </root>
+    <root>
+      <field-name>clojure.lang.RT.INITIALIZED</field-name>
+    </root>
+    <root>
+      <field-name>clojure.lang.RT.id</field-name>
+    </root>
+    <root>
+      <field-name>clojure.lang.Var.NOT_BOUND</field-name>
+    </root>
+    <root>
+      <field-name>clojure.lang.DynamicClassLoader.map</field-name>
+    </root>
+  </roots>
+  <transient-fields>
+    <field-name>clojure.lang.Var.root</field-name>
+  </transient-fields>
+  <locks>
+    <autolock>
+      <method-expression>* clojure..*.*(..)</method-expression>
+    </autolock>
+    <autolock auto-synchronized="true">
+      <method-expression>* clojure.lang.APersistentVector.hashCode(..)</method-expression>
+    </autolock>
+    <autolock auto-synchronized="true">
+      <method-expression>* clojure.lang.APersistentSet.hashCode(..)</method-expression>
+    </autolock>
+    <autolock auto-synchronized="true">
+      <method-expression>* clojure.lang.APersistentMap.hashCode(..)</method-expression>
+    </autolock>
+  </locks>
   <instrumented-classes>
     <include>
       <class-expression>clojure..*</class-expression>

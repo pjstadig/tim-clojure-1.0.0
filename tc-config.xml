@@ -47,7 +47,7 @@
     <modules>
       <repository>%(user.home)/.m2/repository</repository>
       <module name="tim-clojure-1.0.0"
-              version="1.0.0"
+              version="0.0.1"
               group-id="com.stadigtech.terracotta.modules" />
     </modules>
     <logs>%(user.home)/terracotta/client-logs/org.terracotta.modules.sample/%D</logs>
